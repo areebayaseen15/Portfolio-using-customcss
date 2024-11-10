@@ -1,8 +1,6 @@
 "use client"
 import React, { useEffect } from 'react';
-import Image from "next/image";
 import Navbar2 from '../Components/nav2';
-import Link from "next/link"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Card from '../Components/Card';
@@ -26,12 +24,12 @@ const TypescriptProjects = () => {
       <Card image='/Assest/Pictures/calculator.jpeg' title='Cli CALCULATOR' description=' The TypeScript CLI Calculator is a command-line application developed using TypeScript, designed 
                 to perform basic arithmetic operations like addition, subtraction, multiplication, and division.'
                Url='https://github.com/areebayaseen15/Typescript-NodeProject00-Cli-Calculator.git' link="github Link" link2='npx ar15-simple-calculator'
-               backgroundColor='linear-gradient(to right, #F9A8D4, #FFFFFF, #F9A8D4)'/>
+               backgroundColor='linear-gradient(to right, #C7D2FE, #FFFFFF, #C7D2FE)'/>
         
          {/* Card 2 */}
       <Card image='/Assest/Pictures/todos.jpeg' title='Cli TODOS APP' description='  The TypeScript CLI To-Do List Application is a command-line tool built to help users efficiently manage their daily tasks. This project showcases my ability to develop robust, interactive, and user-friendly CLI applications using TypeScript.'
               link2="npx npx-todo-app"  Url='https://github.com/areebayaseen15/typescript-NodeProject03-Todos.git' link="github Link"
-               backgroundColor='linear-gradient(to right, #F9A8D4, #FFFFFF, #F9A8D4)'/>
+               backgroundColor='linear-gradient(to right, #FED7AA, #FFE8D1, #FED7AA)'/>
 
                
          {/* Card 3 */}
@@ -41,7 +39,7 @@ const TypescriptProjects = () => {
                  applications using TypeScript, showcasing my skills in working with logic, data structures, and CLI
                   interactivity.'
               link2="npx ar15-atm"  Url='"https://github.com/areebayaseen15/Typescript-NodeProject02-ATM.git' link="github Link"
-               backgroundColor='linear-gradient(to right, #F9A8D4, #FFFFFF, #F9A8D4)'/>
+               backgroundColor='linear-gradient(to right, #FEF3C7, #FFFFFF, #FEF9C3)'/>
 
                 {/* Card 4*/}
       <Card image='/Assest/Pictures/guessing number.jpeg' title='CLI GUESSING NUMBER GAME' 
@@ -49,7 +47,7 @@ const TypescriptProjects = () => {
       to guess a randomly generated number within a specified range. This project highlights my ability to build engaging and interactive CLI applications using TypeScript, focusing on user experience, logic, and input handling.
 .'
               link2="npx  ar15-cli-guessing-number"  Url='https://github.com/areebayaseen15/Typescript-NodeProject01-Cli-Guessing-Game.git' link="github Link"
-               backgroundColor='linear-gradient(to right, #F9A8D4, #FFFFFF, #F9A8D4)'/>
+               backgroundColor=' linear-gradient(to right, #FECACA, #FFE4E6, #FECACA)'/>
 
 
 
@@ -59,19 +57,19 @@ const TypescriptProjects = () => {
                  currencies in real-time. This project demonstrates my ability to integrate external APIs and work with 
                  real-time data in a CLI environment using TypeScript.'
               link2="Npx ar15-cli-currency-convertor"  Url='https://github.com/areebayaseen15/Typescript-NodeProject04_Currency-convertor.git' link="github Link"
-               backgroundColor='linear-gradient(to right, #F9A8D4, #FFFFFF, #F9A8D4)'/>
+               backgroundColor=' linear-gradient(to right, #9CA3AF, #F3F4F6, #D1D5DB)'/>
 
                     {/* Card 6*/}
                     <Card image='/Assest/Pictures/wordscounter.jpeg' title='Cli WORDS COUNTER' 
       description='The TypeScript CLI Word Counter is a command-line tool that counts the number of words, characters, and sentences in a given text input. This project showcases my ability to process and analyze text in a CLI environment using TypeScript.'
               link2="npx ar15-words-counter"  Url='https://github.com/areebayaseen15/Project-05-Words-Counter.git' link="github Link"
-               backgroundColor='linear-gradient(to right, #F9A8D4, #FFFFFF, #F9A8D4)'/>
+               backgroundColor='linear-gradient(to right, #F87171, #FFE4E6, #FCA5A5)'/>
 
                     {/* Card 7*/}
                     <Card image='/Assest/Pictures/countdown.gif' title='Cli COUNTDOWN TIMER' 
       description='The TypeScript CLI Countdown Timer is a command-line application that provides a simple yet effective countdown timer for various tasks such as study sessions, workouts, or cooking. This project highlights my ability to manage time-based operations and user interaction within a CLI environment using TypeScript.'
               link2="npx ar15-countdown"  Url='https://github.com/areebayaseen15/Typescript-Project09-CountDown.git' link="github Link"
-               backgroundColor='linear-gradient(to right, #F9A8D4, #FFFFFF, #F9A8D4)'/>
+               backgroundColor=' linear-gradient(to right, #FECACA, #DBEAFE, #FECACA)'/>
 
                 {/* Card 8*/}
                 <Card image='/Assest/Pictures/adventure game.jpeg' title='Cli ADVENTURE GAME' 
@@ -79,7 +77,7 @@ const TypescriptProjects = () => {
       modern coding practices and robust design principles. Players will embark on an immersive journey where
        their choices shape the outcome of their adventure.'
               link2="npx ar15-adventur-game"  Url='https://github.com/areebayaseen15/Typescript-NodeProject-07-Adventure-Game.git' link="github Link"
-               backgroundColor='linear-gradient(to right, #F9A8D4, #FFFFFF, #F9A8D4)'/>
+               backgroundColor='linear-gradient(to right, #A7F3D0, #D1FAE5, #A7F3D0)'/>
 
                 {/* Card 9*/}
                 <Card image='/Assest/Pictures/Webp.net-compress-image.jpg' title='Cli QUIZZ APP' 
@@ -88,7 +86,7 @@ const TypescriptProjects = () => {
                 This project demonstrates a CLI-based quiz app where users can test their knowledge on various topics through a series of questions. Utilizing TypeScript ensures robust type safety and enhances the maintainability of the application.
               '
               link2="npx quiz-system-by-ar15"  Url='https://github.com/areebayaseen15/Typescript-Project08-quizz-System.git' link="github Link"
-               backgroundColor='linear-gradient(to right, #F9A8D4, #FFFFFF, #F9A8D4)'/>
+               backgroundColor='linear-gradient(to right, #C7D2FE, #FFFFFF, #C7D2FE)'/>
 
                              {/* Card 10*/}
                              <Card image='/Assest/Pictures/studentmanagement.jpeg' title='Cli STUDENT MANAGMENT SYSTEM' 
@@ -96,14 +94,14 @@ const TypescriptProjects = () => {
 
               link2="npx ar15-student-management-system"
                Url='https://github.com/areebayaseen15/Typescript_Work/tree/main/Typescript%20Node-Projects/Project%2006%20Student-management-system' link="github Link"
-               backgroundColor='linear-gradient(to right, #F9A8D4, #FFFFFF, #F9A8D4)'/>
+               backgroundColor=' linear-gradient(to right, #FEF3C7, #FFD580, #FEF3C7)'/>
 
                {/* Card 11*/}
                <Card image='/Assest/Pictures/oop.jpeg' title='Cli OOP APP' 
       description=' This project showcases the use of OOP principles to design a scalable and maintainable CLI app. Leveraging TypeScript, the application demonstrates how OOP concepts such as classes, inheritance, and encapsulation can be effectively implemented in a CLI environment.'
 
               link2="npx object-programingar-15"  Url='https://github.com/areebayaseen15/Typescript-Project10-OOP.git' link="github Link"
-               backgroundColor='linear-gradient(to right, #F9A8D4, #FFFFFF, #F9A8D4)'/>
+               backgroundColor='linear-gradient(to right, #E9D5FF, #FFFFFF, #E9D5FF)'/>
 
                {/* Card 12*/}
                <Card image='/Assest/Pictures/bank.jpeg' title='Cli BANK SYSTEM' 
@@ -111,7 +109,7 @@ const TypescriptProjects = () => {
 
 
               link2="mybank-ar15"  Url='https://github.com/areebayaseen15/Typescript-Project-11-BankSystem.gitt' link="github Link"
-               backgroundColor='linear-gradient(to right, #F9A8D4, #FFFFFF, #F9A8D4)'/>
+               backgroundColor=' linear-gradient(to right, #C084FC, #FEF9C3, #C084FC)'/>
 
                 {/* Card 13*/}
                 <Card image='/Assest/Pictures/eid Mubarak.webp' title='EID MUBARK WISH' 
@@ -119,7 +117,7 @@ const TypescriptProjects = () => {
                 .This project was done on the day of Eid which shows my love for coding.'
 
              Url='https://github.com/areebayaseen15/birthday-Wisher.git'
-               backgroundColor='linear-gradient(to right, #F9A8D4, #FFFFFF, #F9A8D4)'/>
+               backgroundColor=' linear-gradient(to right, #FED7AA, #FFFFFF, #FED7AA)'/>
 
       {/* Card 14*/}
       <Card image='/Assest/Pictures/birthday wish.gif' title='Cli BIRTHDAY WISh<' 
@@ -128,7 +126,7 @@ const TypescriptProjects = () => {
                 their beloved ones.'
 
                Url='https://github.com/areebayaseen15/birthday-Wisher.git' link="github Link"
-               backgroundColor='linear-gradient(to right, #F9A8D4, #FFFFFF, #F9A8D4)'/>
+               backgroundColor='linear-gradient(to right, #FEF3C7, #FFFFFF, #FEF3C7)'/>
                 {/* Card 15*/}
                 <Card image='/Assest/Pictures/45-assignment.gif' title='Typescript 45 assignments questions' 
       description='  These are the first Assignments Question I started solving in my programming journey.these are basically
@@ -143,7 +141,7 @@ const TypescriptProjects = () => {
                 for hands on practice of coding.I also tried to be the participator of this challenge And have done almost half
                 of days so far.This challenge helped me think critically and enhane my skills of problem solving.'
               Url="https://github.com/areebayaseen15/Typescript-100days_Of_Coding_ChallengebyAsharibAli.git" link="github Link"
-               backgroundColor='linear-gradient(to right, #F9A8D4, #FFFFFF, #F9A8D4)'/>
+               backgroundColor=' linear-gradient(to right, #4338CA, #E0E7FF, #4338CA)'/>
     </div>
 
   </div>
